@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Chirag Salon – Where Style Meets Excellence</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=DM+Sans:wght@300;400;500&family=Cinzel:wght@400;600&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- ───── NAV ───── -->
+  <nav class="nav" id="nav">
+    <div class="nav__inner">
+      <a href="#" class="nav__logo">
+        <span class="nav__logo-icon">✦</span>
+        <span>Chirag<em>Salon</em></span>
+      </a>
+      <button class="nav__burger" id="burger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav__links" id="navLinks">
+        <li><a href="#services">Services</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#booking" class="nav__cta">Book Now</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- ───── HERO ───── -->
+  <section class="hero" id="home">
+    <div class="hero__bg">
+      <div class="hero__orb hero__orb--1"></div>
+      <div class="hero__orb hero__orb--2"></div>
+      <div class="hero__grid"></div>
+    </div>
+    <div class="hero__content">
+      <p class="hero__eyebrow reveal">Premium Grooming Experience</p>
+      <h1 class="hero__heading reveal">
+        Craft Your<br /><em>Signature</em><br />Look
+      </h1>
+      <p class="hero__sub reveal">
+        At Chirag Salon, every appointment is a private ritual — precise cuts,<br class="br-lg" />
+        flawless finishes, and the confidence that follows you out the door.
+      </p>
+      <div class="hero__actions reveal">
+        <a href="#booking" class="btn btn--gold">Book Appointment</a>
+        <a href="#services" class="btn btn--ghost">Explore Services</a>
+      </div>
+      <div class="hero__stats reveal">
+        <div class="hero__stat">
+          <strong>12+</strong><span>Years of Excellence</span>
+        </div>
+        <div class="hero__divider"></div>
+        <div class="hero__stat">
+          <strong>8k+</strong><span>Happy Clients</span>
+        </div>
+        <div class="hero__divider"></div>
+        <div class="hero__stat">
+          <strong>15+</strong><span>Expert Stylists</span>
+        </div>
+      </div>
+    </div>
+    <div class="hero__scroll">
+      <span>Scroll</span>
+      <div class="hero__scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- ───── SERVICES ───── -->
+  <section class="services" id="services">
+    <div class="container">
+      <div class="section-label reveal">What We Offer</div>
+      <h2 class="section-heading reveal">Our Services</h2>
+      <p class="section-sub reveal">Each service is a crafted experience, not just a treatment.</p>
+
+      <div class="services__grid">
+
+        <article class="service-card reveal" style="--delay:0s">
+          <div class="service-card__icon">✂</div>
+          <h3>Haircut</h3>
+          <p>Precision cuts tailored to your face shape, lifestyle, and personal style — from classic fades to modern textured looks.</p>
+          <div class="service-card__price">From ₹299</div>
+          <a href="#booking" class="service-card__link">Book →</a>
+        </article>
+
+        <article class="service-card reveal" style="--delay:.08s">
+          <div class="service-card__icon">🪒</div>
+          <h3>Beard Styling</h3>
+          <p>Sharp lines, clean edges, and perfectly shaped beards crafted with traditional straight-razor artistry and modern technique.</p>
+          <div class="service-card__price">From ₹199</div>
+          <a href="#booking" class="service-card__link">Book →</a>
+        </article>
+
+        <article class="service-card reveal" style="--delay:.16s">
+          <div class="service-card__icon">✦</div>
+          <h3>Facial</h3>
+          <p>Deep-cleanse, hydrate, and rejuvenate with premium skincare treatments designed for men's skin — visible results, lasting glow.</p>
+          <div class="service-card__price">From ₹499</div>
+          <a href="#booking" class="service-card__link">Book →</a>
+        </article>
+
+        <article class="service-card reveal" style="--delay:.24s">
+          <div class="service-card__icon">◈</div>
+          <h3>Hair Spa</h3>
+          <p>Restore strength, shine, and health to your hair with a nourishing spa treatment using professional-grade products and scalp massage.</p>
+          <div class="service-card__price">From ₹799</div>
+          <a href="#booking" class="service-card__link">Book →</a>
+        </article>
+
+        <article class="service-card reveal" style="--delay:.32s">
+          <div class="service-card__icon">❋</div>
+          <h3>Hair Coloring</h3>
+          <p>From natural balayage to bold transformations — our colorists deliver vivid, long-lasting results with zero compromise on hair health.</p>
+          <div class="service-card__price">From ₹999</div>
+          <a href="#booking" class="service-card__link">Book →</a>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ───── GALLERY ───── -->
+  <section class="gallery" id="gallery">
+    <div class="container">
+      <div class="section-label reveal">Portfolio</div>
+      <h2 class="section-heading reveal">Our Work</h2>
+      <p class="section-sub reveal">Transformations that speak for themselves.</p>
+    </div>
+    <div class="gallery__mosaic">
+      <div class="gallery__item gallery__item--tall reveal" style="--delay:0s">
+        <div class="gallery__img" style="background: linear-gradient(135deg,#1a1008 0%,#3d2b10 50%,#c9973a 100%)">
+          <div class="gallery__overlay"><span>Classic Fade</span></div>
+        </div>
+      </div>
+      <div class="gallery__item reveal" style="--delay:.06s">
+        <div class="gallery__img" style="background: linear-gradient(135deg,#0d1a15 0%,#1a3a2a 50%,#3a7a5a 100%)">
+          <div class="gallery__overlay"><span>Beard Art</span></div>
+        </div>
+      </div>
+      <div class="gallery__item reveal" style="--delay:.12s">
+        <div class="gallery__img" style="background: linear-gradient(135deg,#1a0a0a 0%,#3d1010 50%,#c93a3a 100%)">
+          <div class="gallery__overlay"><span>Color Transform</span></div>
+        </div>
+      </div>
+      <div class="gallery__item gallery__item--wide reveal" style="--delay:.18s">
+        <div class="gallery__img" style="background: linear-gradient(135deg,#0a0a1a 0%,#10103d 50%,#3a3ac9 100%)">
+          <div class="gallery__overlay"><span>Modern Texture</span></div>
+        </div>
+      </div>
+      <div class="gallery__item reveal" style="--delay:.24s">
+        <div class="gallery__img" style="background: linear-gradient(135deg,#1a150a 0%,#3d3010 50%,#c9a93a 100%)">
+          <div class="gallery__overlay"><span>Skin Fade</span></div>
+        </div>
+      </div>
+      <div class="gallery__item gallery__item--tall reveal" style="--delay:.30s">
+        <div class="gallery__img" style="background: linear-gradient(135deg,#0a1a0a 0%,#153d15 50%,#3ac93a 100%)">
+          <div class="gallery__overlay"><span>Spa Glow</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ───── ABOUT ───── -->
+  <section class="about" id="about">
+    <div class="container about__inner">
+      <div class="about__visual reveal">
+        <div class="about__portrait">
+          <div class="about__portrait-bg"></div>
+          <div class="about__portrait-inner">
+            <div class="about__monogram">CS</div>
+            <p class="about__tagline">Est. 2012</p>
+          </div>
+          <div class="about__badge">✦ Award Winning</div>
+        </div>
+      </div>
+      <div class="about__text">
+        <div class="section-label reveal">Our Story</div>
+        <h2 class="section-heading reveal">More Than a Haircut.<br /><em>A Ritual.</em></h2>
+        <p class="reveal">
+          Chirag Salon was founded on a single belief: every person deserves to walk out feeling like the best version of themselves. Since 2012, our team of trained stylists has been combining old-school grooming craft with contemporary design sensibility.
+        </p>
+        <p class="reveal">
+          We don't rush appointments. We don't cut corners. We read the room — whether you want a sharp executive look, a relaxed textured style, or a bold reinvention — and we deliver it with consistency.
+        </p>
+        <div class="about__pillars reveal">
+          <div class="pillar">
+            <strong>Precision</strong>
+            <span>Every line, every edge, intentional.</span>
+          </div>
+          <div class="pillar">
+            <strong>Luxury</strong>
+            <span>Premium products, unhurried pace.</span>
+          </div>
+          <div class="pillar">
+            <strong>Trust</strong>
+            <span>12 years of loyal clients say it all.</span>
+          </div>
+        </div>
+        <a href="#booking" class="btn btn--gold reveal">Reserve Your Spot</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ───── BOOKING ───── -->
+  <section class="booking" id="booking">
+    <div class="container">
+      <div class="section-label reveal">Reservations</div>
+      <h2 class="section-heading reveal">Book an Appointment</h2>
+      <p class="section-sub reveal">Pick your service, choose your slot — we'll handle the rest.</p>
+
+      <div class="booking__card reveal">
+        <form class="booking__form" id="bookingForm" novalidate>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="name">Full Name</label>
+              <input type="text" id="name" name="name" placeholder="Rahul Sharma" autocomplete="name" required />
+              <span class="form-error" id="nameErr">Please enter your name.</span>
+            </div>
+            <div class="form-group">
+              <label for="phone">Phone Number</label>
+              <input type="tel" id="phone" name="phone" placeholder="+91 98765 43210" autocomplete="tel" required />
+              <span class="form-error" id="phoneErr">Enter a valid 10-digit number.</span>
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="service">Service</label>
+              <select id="service" name="service" required>
+                <option value="" disabled selected>Choose a service</option>
+                <option value="haircut">Haircut — from ₹299</option>
+                <option value="beard">Beard Styling — from ₹199</option>
+                <option value="facial">Facial — from ₹499</option>
+                <option value="hair-spa">Hair Spa — from ₹799</option>
+                <option value="coloring">Hair Coloring — from ₹999</option>
+              </select>
+              <span class="form-error" id="serviceErr">Please select a service.</span>
+            </div>
+            <div class="form-group">
+              <label for="date">Date</label>
+              <input type="date" id="date" name="date" required />
+              <span class="form-error" id="dateErr">Please pick a date.</span>
+            </div>
+          </div>
+          <div class="form-group form-group--full">
+            <label>Time Slot</label>
+            <div class="time-slots" id="timeSlots">
+              <button type="button" class="slot" data-time="10:00 AM">10:00 AM</button>
+              <button type="button" class="slot" data-time="11:00 AM">11:00 AM</button>
+              <button type="button" class="slot" data-time="12:00 PM">12:00 PM</button>
+              <button type="button" class="slot" data-time="2:00 PM">2:00 PM</button>
+              <button type="button" class="slot" data-time="3:00 PM">3:00 PM</button>
+              <button type="button" class="slot" data-time="4:00 PM">4:00 PM</button>
+              <button type="button" class="slot" data-time="5:00 PM">5:00 PM</button>
+              <button type="button" class="slot" data-time="6:00 PM">6:00 PM</button>
+            </div>
+            <input type="hidden" id="timeSlot" name="timeSlot" required />
+            <span class="form-error" id="slotErr">Please select a time slot.</span>
+          </div>
+          <button type="submit" class="btn btn--gold btn--full">Confirm Booking ✦</button>
+        </form>
+      </div>
+    </div>
+
+    <!-- Success Modal -->
+    <div class="modal" id="successModal">
+      <div class="modal__card">
+        <div class="modal__icon">✦</div>
+        <h3>Booking Confirmed!</h3>
+        <p id="modalMessage">Your appointment has been reserved. We'll send a confirmation to your number shortly.</p>
+        <button class="btn btn--gold" id="modalClose">Done</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ───── CONTACT ───── -->
+  <section class="contact" id="contact">
+    <div class="container">
+      <div class="section-label reveal">Find Us</div>
+      <h2 class="section-heading reveal">Contact</h2>
+      <div class="contact__grid">
+        <div class="contact__card reveal" style="--delay:0s">
+          <div class="contact__card-icon">📍</div>
+          <h4>Visit Us</h4>
+          <p>12, MI Road, Near Gaurav Tower,<br />Jaipur, Rajasthan 302001</p>
+        </div>
+        <div class="contact__card reveal" style="--delay:.08s">
+          <div class="contact__card-icon">📞</div>
+          <h4>Call Us</h4>
+          <p><a href="tel:+919876543210">+91 98765 43210</a><br /><a href="tel:+919876543211">+91 98765 43211</a></p>
+        </div>
+        <div class="contact__card reveal" style="--delay:.16s">
+          <div class="contact__card-icon">🕐</div>
+          <h4>Hours</h4>
+          <p>Mon – Sat: 9:00 AM – 8:00 PM<br />Sunday: 10:00 AM – 6:00 PM</p>
+        </div>
+        <div class="contact__card reveal" style="--delay:.24s">
+          <div class="contact__card-icon">✉</div>
+          <h4>Email</h4>
+          <p><a href="mailto:hello@chiragsalon.in">hello@chiragsalon.in</a></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ───── FOOTER ───── -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <a href="#" class="nav__logo">
+        <span class="nav__logo-icon">✦</span>
+        <span>Chirag<em>Salon</em></span>
+      </a>
+      <p class="footer__copy">© 2024 Chirag Salon. All rights reserved.</p>
+      <div class="footer__links">
+        <a href="#services">Services</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#about">About</a>
+        <a href="#booking">Book</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
